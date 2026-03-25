@@ -8,7 +8,7 @@ import json
 class MainApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        loadUi("tracNghiem.ui", self)
+        loadUi("ui/tracNghiem.ui", self)
 
         # ===== STATE =====
         self.current_index = 0
@@ -26,7 +26,7 @@ class MainApp(QMainWindow):
     # DATA
     # =========================
     def loadData(self):
-        with open("question.json", "r", encoding="utf-8") as file:
+        with open("data/question.json", "r", encoding="utf-8") as file:
             self.questions = json.load(file)
 
     # =========================
