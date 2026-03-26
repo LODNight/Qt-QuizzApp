@@ -22,12 +22,29 @@ class MainApp(QMainWindow):
         self.showQuestion()
         self.widget_choice.hide()
 
+        # ===== TIMER =====
+        self.time_elapsed = 0  # tính bằng giây
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.updateTime)
+        self.timer.start(1000)  # 1 giây chạy 1 lần
+
     # =========================
     # DATA
     # =========================
     def loadData(self):
-        with open("data/question.json", "r", encoding="utf-8") as file:
+        with open("data/tieuhoc.json", "r", encoding="utf-8") as file:
             self.questions = json.load(file)
+
+    # =========================
+    # TIMER
+    # =========================
+    def updateTime(self):
+        self.time_elapsed += 1
+
+        minutes = self.time_elapsed // 60
+        seconds = self.time_elapsed % 60
+
+        self.label_time.setText(f"Thời gian: {minutes:02}:{seconds:02}")
 
     # =========================
     # UI SETUP
@@ -69,8 +86,15 @@ class MainApp(QMainWindow):
             self.showResult()
 
     def showResult(self):
+        self.timer.stop()
+        
+        minutes = self.time_elapsed // 60
+        seconds = self.time_elapsed % 60
+
         self.label_question.setText(
-            f"🎉 Hoàn thành!\nĐiểm: {self.score}/{len(self.questions)}"
+            f"🎉 Hoàn thành! \n" 
+            f"Điểm: {self.score}/{len(self.questions)}\n"
+            f"Thời gian: {minutes:02}:{seconds:02}"
         )
         self.label_questionNumber.setText("Kết thúc")
 

@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "question": "5 + 3 = ?",
+        "a_answer": "6",
+        "b_answer": "7",
+        "c_answer": "8",
+        "d_answer": "9",
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "10 - 4 = ?",
+        "a_answer": "5",
+        "b_answer": "6",
+        "c_answer": "7",
+        "d_answer": "8",
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "2 + 7 = ?",
+        "a_answer": "7",
+        "b_answer": "8",
+        "c_answer": "10",
+        "d_answer": "9",
+        "correct_answer": "D"
+    },
+    {
+        "id": 4,
+        "question": "6 x 2 = ?",
+        "a_answer": "10",
+        "b_answer": "11",
+        "c_answer": "12",
+        "d_answer": "13",
+        "correct_answer": "C"
+    },
+    {
+        "id": 5,
+        "question": "15 ÷ 3 = ?",
+        "a_answer": "4",
+        "b_answer": "5",
+        "c_answer": "6",
+        "d_answer": "3",
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "12 + 15 = ?",
+        "a_answer": "25",
+        "b_answer": "26",
+        "c_answer": "27",
+        "d_answer": "28",
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "question": "20 - 9 = ?",
+        "a_answer": "10",
+        "b_answer": "11",
+        "c_answer": "12",
+        "d_answer": "13",
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "7 x 4 = ?",
+        "a_answer": "28",
+        "b_answer": "26",
+        "c_answer": "24",
+        "d_answer": "30",
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "question": "36 ÷ 6 = ?",
+        "a_answer": "5",
+        "b_answer": "6",
+        "c_answer": "7",
+        "d_answer": "8",
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "question": "45 + 27 = ?",
+        "a_answer": "70",
+        "b_answer": "71",
+        "c_answer": "72",
+        "d_answer": "73",
+        "correct_answer": "C"
+    },
+    {
+        "id": 11,
+        "question": "100 - 36 = ?",
+        "a_answer": "64",
+        "b_answer": "65",
+        "c_answer": "66",
+        "d_answer": "63",
+        "correct_answer": "A"
+    },
+    {
+        "id": 12,
+        "question": "8 x 9 = ?",
+        "a_answer": "72",
+        "b_answer": "64",
+        "c_answer": "81",
+        "d_answer": "70",
+        "correct_answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "56 ÷ 8 = ?",
+        "a_answer": "6",
+        "b_answer": "7",
+        "c_answer": "8",
+        "d_answer": "9",
+        "correct_answer": "B"
+    },
+    {
+        "id": 14,
+        "question": "Một hình chữ nhật có chiều dài 8, chiều rộng 5. Diện tích là bao nhiêu?",
+        "a_answer": "45",
+        "b_answer": "13",
+        "c_answer": "26",
+        "d_answer": "40",
+        "correct_answer": "D"
+    },
+    {
+        "id": 15,
+        "question": "Một hình vuông cạnh 6. Chu vi là bao nhiêu?",
+        "a_answer": "12",
+        "b_answer": "24",
+        "c_answer": "18",
+        "d_answer": "36",
+        "correct_answer": "B"
+    },
+    {
+        "id": 16,
+        "question": "3/4 + 1/4 = ?",
+        "a_answer": "1",
+        "b_answer": "2/4",
+        "c_answer": "3/4",
+        "d_answer": "4/4",
+        "correct_answer": "A"
+    },
+    {
+        "id": 17,
+        "question": "5/6 - 1/6 = ?",
+        "a_answer": "3/6",
+        "b_answer": "4/6",
+        "c_answer": "5/6",
+        "d_answer": "2/6",
+        "correct_answer": "B"
+    },
+    {
+        "id": 18,
+        "question": "2.5 + 1.5 = ?",
+        "a_answer": "3.5",
+        "b_answer": "4",
+        "c_answer": "4.5",
+        "d_answer": "5",
+        "correct_answer": "B"
+    },
+    {
+        "id": 19,
+        "question": "Một lớp có 30 học sinh, trong đó có 12 nữ. Hỏi có bao nhiêu nam?",
+        "a_answer": "22",
+        "b_answer": "16",
+        "c_answer": "20",
+        "d_answer": "18",
+        "correct_answer": "D"
+    },
+    {
+        "id": 20,
+        "question": "Một cửa hàng có 5 hộp, mỗi hộp có 12 cái bánh. Tổng số bánh là bao nhiêu?",
+        "a_answer": "50",
+        "b_answer": "55",
+        "c_answer": "60",
+        "d_answer": "65",
+        "correct_answer": "C"
+    }
+]
